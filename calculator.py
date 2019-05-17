@@ -1,13 +1,9 @@
-#	This is going to be a Calculator which was
-#	created by following a guide from DigitalOcean.
-#	https://www.digitalocean.com/community/tutorials/how-to-make-a-simple-calculator-program-in-python-3
-
-#	Define a welcome function
+#   Create a welcome function
 def welcome():
-	print('''
-Welcome to Python3-Calculator''')
-
-#	Define calculator function
+    print('''
+Welcome to Simple-Python-Calculator
+''')
+#   Create a Calculator function
 def calculate():
     operation = input('''
 Please type in the math operation you would like to complete:
@@ -15,10 +11,8 @@ Please type in the math operation you would like to complete:
 - for subtraction
 * for multiplication
 / for division
-
 ''')
 
-#	Ask for input
     number_1 = int(input('Please enter the first number: '))
     number_2 = int(input('Please enter the second number: '))
 
@@ -41,9 +35,9 @@ Please type in the math operation you would like to complete:
     else:
         print('You have not typed a valid operator, please run the program again.')
 
-#	Add again() function to calculate() function
+#   Add again() function to calculate() function
     again()
-#	Define a function to calculate again
+#   Define an again function
 def again():
     calc_again = input('''
 Do you want to calculate again?
@@ -56,6 +50,7 @@ Please type Y for YES or N for NO.
         print('See you later.')
     else:
         again()
-
+#   Start with Welcome
+#   Start Calculator
 welcome()
 calculate()
