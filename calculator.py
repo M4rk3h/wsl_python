@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #   Create a welcome function
 def welcome():
     print('''
