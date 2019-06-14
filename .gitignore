@@ -1,2 +1,4 @@
-.vscode
+Solution/*/bin/Debug
+Solution/*/bin/Release
 
+*/*
